@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Direction</class>
+ <widget class="QWidget" name="Direction">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>225</width>
+    <height>115</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>2</y>
+     <width>221</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border : 2px solid</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="HIGH">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>HIGH</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LOW">
+    <property name="geometry">
+     <rect>
+      <x>124</x>
+      <y>20</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LOW</string>
+    </property>
+   </widget>
+   <zorder>LOW</zorder>
+   <zorder>HIGH</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

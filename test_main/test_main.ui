@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>test_main</class>
+ <widget class="QWidget" name="test_main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>test_app</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+
+
+background-color : white;</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>80</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton{
+
+border:2px solid; border-radius:15px;
+
+}
+QPushButton:pressed{
+
+
+	background-color : rgb(211, 211, 211);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>EXIT</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>361</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#lineEdit{
+
+
+	border-width : 3px;
+	border-style : solid;
+	border-color : rgb(0,0,0);
+	border-radius : 10px;
+
+
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>I.MX6 TEST PROGRAM</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="dragEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>731</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox#groupBox{
+
+
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 15px;
+	background-color : white;
+
+
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="ethernet">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>160</y>
+      <width>120</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+
+border:2px solid; border-radius:25px;
+
+}
+QPushButton:pressed{
+
+
+	background-color : rgb(211, 211, 211);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Ethernet</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="iic">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>30</y>
+      <width>120</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+
+border:2px solid; border-radius:25px;
+
+}
+QPushButton:pressed{
+
+
+	background-color : rgb(211, 211, 211);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>I2C</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="spi">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>30</y>
+      <width>120</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+
+border:2px solid; border-radius:25px;
+
+}
+QPushButton:pressed{
+
+
+	background-color : rgb(211, 211, 211);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>SPI</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="emmc">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>160</y>
+      <width>120</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+
+border:2px solid; border-radius:25px;
+
+}
+QPushButton:pressed{
+
+
+	background-color : rgb(211, 211, 211);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>eMMC</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="usb">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>160</y>
+      <width>120</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+
+border:2px solid; border-radius:25px;
+
+}
+QPushButton:pressed{
+
+
+	background-color : rgb(211, 211, 211);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>USB</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="uart">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>30</y>
+      <width>120</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+
+border:2px solid; border-radius:25px;
+
+}
+QPushButton:pressed{
+
+
+	background-color : rgb(211, 211, 211);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>UART</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="gpio">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>120</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+
+border:2px solid; border-radius:25px;
+
+}
+QPushButton:pressed{
+
+
+	background-color : rgb(211, 211, 211);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>GPIO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="audio">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>120</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+
+border:2px solid; border-radius:25px;
+
+}
+QPushButton:pressed{
+
+
+	background-color : rgb(211, 211, 211);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>AUDIO</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

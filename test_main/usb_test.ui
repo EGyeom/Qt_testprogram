@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>usb_test</class>
+ <widget class="QWidget" name="usb_test">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>usb_test</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: white;</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QTreeView" name="tree">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>591</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>591</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>591</width>
+      <height>341</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTreeView{
+ border : 2px solid;
+ border-radius: 10px;
+}
+
+QHeaderView{
+
+	border : 1px solid;
+	border-radius: 8px;
+
+}</string>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>0</y>
+      <width>300</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border : 2px solid; background-color: white;</string>
+    </property>
+    <property name="text">
+     <string>USB_TEST</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	
+	background-color : white;
+	border : 1px solid;
+	
+	
+}
+
+QPushButton:pressed{
+
+	background-color : rgb(211,211,100);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>BACK</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>120</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+
+	height : 10px;
+	background-color: white;
+	border : 1px solid;
+
+}</string>
+    </property>
+    <property name="modelColumn">
+     <number>0</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>sda1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sdb1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sdc1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sdd1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sde1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sdf1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sdg1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sdh1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sdi1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sdj1</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>60</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	
+	background-color : white;
+	border : 1px solid;
+	
+	
+}
+
+QPushButton:pressed{
+
+	background-color : rgb(211,211,100);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>DEL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>10</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	
+	background-color : white;
+	border : 1px solid;
+	
+	
+}
+
+QPushButton:pressed{
+
+	background-color : rgb(211,211,100);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>WRITE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>160</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	
+	background-color : white;
+	border : 1px solid;
+	
+	
+}
+
+QPushButton:pressed{
+
+	background-color : rgb(211,211,100);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>READ</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>210</y>
+      <width>161</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
